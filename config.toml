@@ -1,3 +1,20 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = "en-us"
+contentdir = "content"
+publishdir = "public"
+builddrafts = false
+baseUrl = ""
+canonifyurls = true
+title = "Signed Sealed Delivered"
+author = "lewis"
+theme = "pixyll"
+disqusShortname = "signed-sealed-delivered"
+
+[indexes]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  search_engine = true
+  # google_analytics_id = "XX-XXXXXXXX-X"
+  twitter_username = "denhamparry"
+  paginate = true
