@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    app: signedsealeddelivery
+  name: signedsealeddelivery
+spec:
+  containers:
+  - image: ghcr.io/denhamparry/signedsealeddelivery:sha-07f8e305ab4a23b50b940d0e2d0d1eb97d4ed446
+    name: signedsealeddelivery
+    ports:
+    - name: http
+      containerPort: 8080
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
