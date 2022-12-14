@@ -1,3 +1,3 @@
 FROM cgr.dev/chainguard/nginx:latest
-COPY nginx.conf /etc/nginx/nginx.conf
-COPY public/ /var/lib/nginx/html/
+COPY website/nginx.conf /etc/nginx/nginx.conf
+COPY website/index.html /var/lib/nginx/html/
